@@ -1,7 +1,10 @@
+import Register from "./components/register/Register";
+import './App.css'
+
 function App() {
   return (
     <div className="App">
-      <h1>Shoo shooo, Nothing to see here. Still under development</h1>
+      <Register />
     </div>
   );
 }
