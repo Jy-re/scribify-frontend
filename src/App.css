@@ -130,3 +130,53 @@ a{
   text-decoration: none;
   color: black;
 }
+
+/* Dashboard Styles */
+
+.headerContainer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.imgContainer{
+  margin-top: 24px;
+  margin-right: 25px;
+}
+
+.welcomeMessage{
+  font-family: 'Lora';
+  font-size: 35px;
+
+}
+
+hr{
+  width: 90%;
+}
+
+.navContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.navItemWContainer{
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.navItemLabel{
+  font-family: 'Lora';
+  font-size: 25px;
+}
+
+.worksContainer{
+  width: 90%;
+  height: 700px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 1%;
+  background-color: white;
+}
