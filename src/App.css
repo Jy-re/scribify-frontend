@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+  background-color: #F4F8FB;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Register/Login Styles */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content{
+  background-color: #F4F8FB;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  height: 100vh; /* Full viewport height */
+}
+
+.logo{
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+}
+
+.registerContainer{
+  margin-top: 140px;
+}
+
+.logContainer{
+  margin-top: 190px;
+}
+
+.reglogNavContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Or try space-around */
+  align-items: center;
+}
+
+.navItemContainer{
+  
+  margin: 0px 100px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 150px;
+  line-height: 0;
+  cursor: pointer;
+  border-bottom: solid 1px transparent;
 }
 
-.App-link {
-  color: #61dafb;
+.ItemActive{
+  border-bottom: solid 1px black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navText{
+  font-family: 'Lora';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.toRegisterLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.noAccount{
+  font-family: 'Lora';
+  font-size: 20px;
+}
+
+.RegDescription{
+  margin-left: 90px;
+}
+
+.LogDescription{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.RegDescriptionText{
+  font-family: 'Lora';
+  font-size: 20px;
+}
+
+.LogDescriptionText{
+  font-family: 'Lora';
+  font-size: 25px;
+}
+
+
+.inputFieldReg{
+  margin-left: 90px;
+  margin-top: 30px;
+  ;
+}
+
+.InputField{
+  width: 85%;
+  height: 60px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: 'Itim';
+  padding-right: 20px
+}
+
+.signupBtnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.signupBtn{
+  background-color: white;
+  width: 170px;
+  border-radius: 10px;
+  font-family: 'Itim';
+  font-size: 20px;
+  height: 50px;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
