@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 body{
   background-color: #F4F8FB;
@@ -20,7 +21,11 @@ body{
 }
 
 .registerContainer{
-  margin-top: 70px;
+  margin-top: 140px;
+}
+
+.logContainer{
+  margin-top: 190px;
 }
 
 .reglogNavContainer{
@@ -42,12 +47,7 @@ body{
   border-bottom: solid 1px transparent;
 }
 
-.navItemContainer:hover{
-  border-bottom: solid 1px black;
-}
-
-.navItemContainer:active{
-
+.ItemActive{
   border-bottom: solid 1px black;
 }
 
@@ -57,10 +57,28 @@ body{
   font-weight: 600;
 }
 
-/* Register Styles */
+.toRegisterLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.noAccount{
+  font-family: 'Lora';
+  font-size: 20px;
+}
 
 .RegDescription{
   margin-left: 90px;
+}
+
+.LogDescription{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .RegDescriptionText{
@@ -68,3 +86,47 @@ body{
   font-size: 20px;
 }
 
+.LogDescriptionText{
+  font-family: 'Lora';
+  font-size: 25px;
+}
+
+
+.inputFieldReg{
+  margin-left: 90px;
+  margin-top: 30px;
+  ;
+}
+
+.InputField{
+  width: 85%;
+  height: 60px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: 'Itim';
+  padding-right: 20px
+}
+
+.signupBtnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.signupBtn{
+  background-color: white;
+  width: 170px;
+  border-radius: 10px;
+  font-family: 'Itim';
+  font-size: 20px;
+  height: 50px;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
